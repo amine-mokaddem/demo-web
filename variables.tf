@@ -38,9 +38,3 @@ variable "available_memory_mb" {
   type        = string
 }
 
-
-
-variable "f_entry_point" {
-  description = "Name of the function that will be executed when the Google Cloud Function is triggered"
-  type        = string
-}
