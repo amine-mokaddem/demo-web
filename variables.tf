@@ -35,6 +35,6 @@ variable "function_run_time" {
 
 variable "available_memory_mb" {
   description = "Memory (in MB), available to the function."
-  type        = string
+  type        = number
 }
 
